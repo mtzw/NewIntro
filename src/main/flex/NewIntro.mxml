@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   xmlns:yui="http://akb7.jp/yui/2.0"
+			   xmlns:view="jp.mtzw.web.intro.view.*">
+	<fx:Declarations>
+		<yui:YuiFrameworkSettings/>
+	</fx:Declarations>
+	<fx:Script source="dependencies.as"/>
+	<fx:Style source="style/common.css"/>
+	<view:IntroView id="mainView"/>
+</s:Application>

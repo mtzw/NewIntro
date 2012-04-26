@@ -1,0 +1,16 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace intro "jp.mtzw.web.intro.*";
+@namespace view "jp.mtzw.web.intro.view.*";
+
+s|Application {
+}
+
+view|IntroView s|BorderContainer {
+	backgroundColor: #5b5b5b;
+}
+
+view|IntroView s|Button {
+	fontSize: 20;
+}
